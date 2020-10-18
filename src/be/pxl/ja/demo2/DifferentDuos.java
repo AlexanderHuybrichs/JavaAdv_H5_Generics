@@ -9,6 +9,13 @@ public class DifferentDuos {
 		Duo<String> cocktail = new Duo<>("gin", "tonic");
 		Duo<Actor> famousDuo = new Duo<>(new Actor("Ben","Stiller"), new Actor("Owen", "Wilson"));
 		Duo<Integer> numbers = new Duo<>(5, 12);
+
+
+
+
+		System.out.println(cocktail.getFirst());
+		System.out.println(famousDuo.getFirst());
+		System.out.println(numbers.getFirst());
 	}
 
 }
